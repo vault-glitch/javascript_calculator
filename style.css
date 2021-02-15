@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(131, 75, 131);
+  font-family: roboto, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.calculator {
+  background-color: white;
+  width: 350px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.calculator h1 {
+  color: rgb(131, 75, 131);
+  font-size: 3rem;
+  margin: 16px 0;
+}
+
+.display {
+  background-color: rgb(131, 75, 131);
+  height: 80px;
+  width: 323px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 4px;
+  padding-right: 4px;
+}
+
+#displayHistory {
+  /* background-color: rgb(131, 75, 131); */
+  height: 30px;
+  font-size: 1rem;
+  color: white;
+  justify-content: end;
+}
+
+#display {
+  color: white;
+  font-size: 3rem;
+}
+
+.panel {
+  display: grid;
+  grid-template-columns: 4;
+  column-gap: 1px;
+  row-gap: 1px;
+  font-size: 0;
+}
+
+.btn {
+  width: 80px;
+  height: 80px;
+  border: 0;
+  padding: 0;
+  margin-right: 1px;
+  font-family: inherit;
+  font-size: 2rem;
+  color: white;
+  background-color: #834b83;
+}
+
+.btn:hover {
+  background-color: #3f263f;
+}
+
+.btn.big {
+  width: 161px;
+  background-color: #4b834b;
+}
+
+.btn.big:hover {
+  background-color: #243f24;
+}
+
+.btn.operator {
+  background-color: #83834b;
+}
+
+.btn.operator:hover {
+  background-color: #4e4e2d;
+}
+
+footer {
+  color: #834b83;
+  margin-top: 1.4rem;
+}
+
+footer a {
+  text-decoration: none;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <title>JS Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="calculator">
+        <h1>Calculator</h1>
+        <div class="display">
+            <div id="displayHistory"></div>
+            <div id="display"></div>
+        </div>
+        <div class="panel">
+            <div class="row row1">
+                <button class="btn big" id="delete">Delete</button>
+                <button class="btn big" id="clear">Clear</button>
+            </div>
+
+            <div class="row row2">
+                <button class="btn" id=num>7</button>
+                <button class="btn" id="num">8</button>
+                <button class="btn" id="num">9</button>
+                <button class="btn operator" id="operator">/</button>
+            </div>
+            <div class="row row3">
+                <button class="btn" id="num">4</button>
+                <button class="btn" id="num">5</button>
+                <button class="btn" id="num">6</button>
+                <button class="btn operator" id="operator">*</button>
+            </div>
+            <div class="row row4">
+                <button class="btn" id="num">1</button>
+                <button class="btn" id="num">2</button>
+                <button class="btn" id="num">3</button>
+                <button class="btn operator" id="operator">-</button>
+            </div>
+            <div class="row row5">
+                <button class="btn" id="num">0</button>
+                <button class="btn" id="point">.</button>
+                <button class="btn operator" id="equals">=</button>
+                <button class="btn operator" id="operator">+</button>
+            </div>
+        </div>
+        <footer>
+            <h4>Source code at: <a href="">GitHub</a></h4>
+        </footer>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
